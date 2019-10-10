@@ -1,11 +1,10 @@
 {
   "name": "node-express-inversify",
   "version": "0.0.1",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "start": "yarn serve",
-    "serve": "node dist/server.js",
+    "serve": "node dist/app.js",
     "build-ts": "tsc",
     "watch-ts": "tsc -w"
   },
@@ -35,7 +34,7 @@
     "@types/inversify": "^2.0.33",
     "@types/inversify-express-utils": "^2.0.0",
     "@types/reflect-metadata": "^0.1.0",
-    "nodemon": "^1.19.3",
+    "nodemon": "1.19.3",
     "typescript": "^3.6.4"
   }
 }
